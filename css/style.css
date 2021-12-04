@@ -16,7 +16,7 @@ body {
   box-shadow: 0px 1px 3px rgb(138, 136, 136);
 }
 
-.navbar-left {
+.navbar-esquerda {
   width: 25%;
   display: flex;
   align-items: center;
@@ -62,7 +62,7 @@ body {
   color: #a8abaf;
 }
 
-.navbar-center {
+.navbar-centro {
   width: 50%;
   text-align: center;
   display: flex;
@@ -70,7 +70,7 @@ body {
   align-items: center;
 }
 
-.navbar-center a {
+.navbar-centro a {
   width: 150px;
   height: 60px;
   display: flex;
@@ -79,18 +79,18 @@ body {
   transition: 0.2s;
 }
 
-.navbar-center a:hover {
+.navbar-centro a:hover {
   background: #f2f2f2;
   border-radius: 10px;
   height: 55px;
   border: none;
 }
 
-.active-icon {
+.icone-ativo {
   border-bottom: 3px solid #1b74e4;
 }
 
-.active-icon i {
+.icone-ativo i {
   color: #1b74e4 !important; /*substitui TODAS as regras de estilo anteriores por essa*/
 }
 
@@ -101,7 +101,7 @@ body {
   font-size: 23px;
 }
 
-.navbar-right {
+.navbar-direita {
   width: 25%;
   text-align: right;
   display: flex;
@@ -110,7 +110,7 @@ body {
   margin-right: 45px;
 }
 
-.navbar-right-profile {
+.navbar-direita-profile {
   display: flex;
   align-items: center;
   height: 40px;
@@ -118,25 +118,25 @@ body {
   transition: 0.2s;
 }
 
-.navbar-right-profile:hover {
+.navbar-direita-profile:hover {
   background: #f2f2f2;
   border-radius: 25px;
   padding: 0 5px;
 }
 
-.navbar-right-profile img {
+.navbar-direita-profile img {
   width: 30px;
   height: 30px;
   margin-right: 5px;
 }
 
-.navbar-right-profile span {
+.navbar-direita-profile span {
   color: #272727;
   font-size: 15px;
   font-weight: 500;
 }
 
-.navbar-right-links i {
+.navbar-direita-links i {
   margin-right: 5px;
   background: #e4e6eb;
   padding: 12px;
@@ -147,7 +147,7 @@ body {
   font-size: 16px;
 }
 
-.navbar-right-links i:hover {
+.navbar-direita-links i:hover {
   background: #d8dadf;
 }
 /* Fim da navbar */
