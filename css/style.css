@@ -323,7 +323,7 @@ body {
 }
 
 .compartilhe-downside-link:hover {
-  background: #3a3b3c;
+  background: #f0f2f5;
   border-radius: 10px;
   height: 40px;
   display: flex;
@@ -354,7 +354,140 @@ body {
   color: #f8c03e;
 }
 
-/* Come;o do conte[udo da direita*/
+/*Começo feed de noticias*/
+
+.feed-noticia {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.feed-noticia-titulo {
+  padding: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.feed-noticia-titulo img {
+  width: 40px;
+  margin-right: 7px;
+}
+
+.feed-noticia-titulo-conteudo {
+  text-align: left;
+}
+
+.feed-noticia-titulo-conteudo p {
+  color: #272727;
+  font-weight: 500;
+}
+
+.feed-noticia-titulo-conteudo span {
+  color: #272727;
+  font-size: 12px;
+}
+
+.feed-noticia-descricao {
+  min-height: 400px;
+}
+
+.feed-noticia-subtitulo {
+  padding: 0 15px;
+  color: #272727;
+  font-size: 15px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.feed-noticia-descricao img {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.feed-noticia-descricao-titulo {
+  margin-top: -5px;
+  padding: 10px 15px;
+  background-color: #f0f2f5;
+  text-align: left;
+}
+
+.feed-noticia-descricao-titulo span {
+  color: #65676b;
+  font-size: 13px;
+}
+
+.feed-noticia-descricao-titulo p {
+  font-weight: 500;
+  color: #65676b;
+  font-size: 15px;
+}
+
+/*area de like*/
+
+.area-like {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.emojis {
+  display: flex;
+  align-items: center;
+}
+
+.emojis img {
+  width: 25px;
+  margin-right: -3px;
+}
+
+.emojis span {
+  color: #b7babe;
+  margin-left: 10px;
+}
+
+.comentarios {
+  color: #b7babe;
+}
+/**/
+
+.divisor {
+  padding: 0 15px 0 15px;
+}
+
+.botao-like {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 15px;
+  height: 35px;
+}
+
+.botao-like-links {
+  width: 33.3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(101, 103, 107);
+  font-weight: 500;
+}
+
+.botao-like-links:hover {
+  background: #f0f2f5;
+  border-radius: 5px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao-like-links i {
+  font-size: 18px;
+  margin-right: 10px;
+}
+/* Começo do conte[udo da direita*/
 .conteudo-direita-interno {
   width: 70%;
   padding-right: 10px;
