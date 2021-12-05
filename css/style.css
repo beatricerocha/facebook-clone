@@ -323,7 +323,7 @@ body {
 }
 
 .compartilhe-downside-link:hover {
-  background: #3a3b3c;
+  background: #f0f2f5;
   border-radius: 10px;
   height: 40px;
   display: flex;
@@ -450,4 +450,40 @@ body {
 
 .comentarios {
   color: #b7babe;
+}
+/**/
+
+.divisor {
+  padding: 0 15px 0 15px;
+}
+
+.botao-like {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 15px;
+  height: 35px;
+}
+
+.botao-like-links {
+  width: 33.3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(101, 103, 107);
+  font-weight: 500;
+}
+
+.botao-like-links:hover {
+  background: #f0f2f5;
+  border-radius: 5px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao-like-links i {
+  font-size: 18px;
+  margin-right: 10px;
 }
