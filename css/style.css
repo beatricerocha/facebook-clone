@@ -486,14 +486,13 @@ body {
 .botao-like-links i {
   font-size: 18px;
   margin-right: 10px;
-/* Come;o do conte[udo da direita*/
-
-/*conteudo-direita-interno {
+}
+/* Começo do conte[udo da direita*/
+.conteudo-direita-interno {
   width: 70%;
   padding-right: 10px;
-}*/
-
-.conteudo-direita ul {
+}
+*/ .conteudo-direita ul {
   margin: 0;
   list-style: none;
   padding-left: 0;
