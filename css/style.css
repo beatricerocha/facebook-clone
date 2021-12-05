@@ -275,6 +275,7 @@ body {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   padding: 15px;
+  padding-right: 25px;
 }
 .compartilhe-upside {
   display: flex;
@@ -311,12 +312,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 15px;
+  padding-top: 14px;
   height: 40px;
 }
 
 .compartilhe-downside-link {
-  width: 33.3%;
+  width: 37%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -372,6 +373,7 @@ body {
 .feed-noticia-titulo img {
   width: 40px;
   margin-right: 7px;
+  border-radius: 50%;
 }
 
 .feed-noticia-titulo-conteudo {
@@ -384,7 +386,7 @@ body {
 }
 
 .feed-noticia-titulo-conteudo span {
-  color: #272727;
+  color: #65676b;
   font-size: 12px;
 }
 
