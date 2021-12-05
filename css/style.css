@@ -393,6 +393,9 @@ body {
 .feed-noticia-descricao {
   min-height: 400px;
 }
+.feed-noticia-descricao-comentario {
+  min-height: 0px;
+}
 
 .feed-noticia-subtitulo {
   padding: 0 15px;
