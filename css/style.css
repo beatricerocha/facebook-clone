@@ -353,3 +353,50 @@ body {
 .icone-sentimento {
   color: #f8c03e;
 }
+
+/* Come;o do conte[udo da direita*/
+.conteudo-direita-interno {
+  width: 70%;
+  padding-right: 10px;
+}
+
+.conteudo-direita ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+.conteudo-direita ul li {
+  margin-bottom: 15px;
+}
+
+.conteudo-direita ul li a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #272727;
+  font-weight: 500;
+}
+
+.conteudo-direita ul li a img {
+  width: 37px;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+.contatos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  color: #a1a4a9;
+}
+
+.contatos h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contatos i {
+  margin-left: 15px;
+}
